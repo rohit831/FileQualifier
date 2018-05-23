@@ -1,0 +1,2 @@
+1~2014~13~DS~DF  --too many columns
+1ABCA B C~ERTE  -- very less columns

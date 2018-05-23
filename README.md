@@ -10,8 +10,8 @@ USE CASE:
    split and import our data based on the no of columns and delimiter.
 
 2) This text qualifier aims at first removing all the unwanted characters inside the file.
-   For e.g. Input:  5~"Rohit~Agrawal"~"Some Data which ~ contains~ delimiter"
-            Output: 5~Rohit Agrawal~Some Data which contains delimeter
+   For e.g. Input:  5~"Ro~hit"~"Some Data which ~ contains~ delimiter"
+            Output: 5~Rohit"~Some Data which contains delimeter
             
 3)  Now this data can be splitted and imported according to your policy.
     Also, Suppose if our file should have N delimeted columns.
